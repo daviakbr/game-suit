@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>GAME</title>
+</head>
+
+<body>
+  <div class="papan-score">
+    <div class="papan-scoreplayer">
+      <div class="nama-player">PLAYER</div>
+      <div class="score-player">0</div>
+    </div>
+    <div class="papan-scorecomputer">
+      <div class="nama-computer">COMPUTER</div>
+      <div class="score-computer">0</div>
+    </div>
+  </div>
+
+  <div id="app">
+    <div class="summary">
+        <div class="player1-container">
+            <h1 class="player1">Player</h1>
+            <h1 id="pilihan-player">....</h1>
+            <h3 id="result-player">... </h3>
+        </div>
+
+        <h1 class="vs">VS</h1>
+
+        <div class="computer-container">
+            <h1 class="computer">Computer</h1>
+            <h1 id="pilihan-computer">...</h1>
+            <h3 id="result-computer">...</h3>
+        </div>
+    </div>
+</div> 
+
+    <div class="games">
+      <button id="klik" class="option" onclick="pickOption('✊')">✊</button>
+      <button id="klik" class="option" onclick="pickOption('✌')">✌</button>
+      <button id="klik" class="option" onclick="pickOption('🖐')">🖐</button>
+    </div>
+  </div>
+
+  <script src="script.js" />
+
+</body>
+
+</html>

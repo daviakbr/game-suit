@@ -1,0 +1,119 @@
+:root {
+    box-sizing: border-box;
+}
+
+html, body, * {
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    height: 50vh;
+}
+
+.summary {
+    background-color: rgb(250, 248, 248);
+    display: flex;
+    align-items: first baseline;
+    justify-content: center;
+    gap: 50px;
+    margin: 0 auto;
+    height: 100%; /* Sesuaikan dengan tinggi parent #app */
+    padding: 5px; /* Tambahkan padding untuk estetika */
+}
+
+.papan-score{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1%;
+}
+
+.papan-scoreplayer{
+    background-color: red;
+    width: 150px;
+    height: 50px;
+}
+
+.papan-scorecomputer{
+    background-color: blue;
+    width: 150px;
+    height: 50px;
+}
+
+.nama-player, .nama-computer{
+    font-size: 20px;
+}
+
+.score-player, .score-computer{
+    font-size: 24px;
+}
+
+.player1-container, .computer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2; /* Warna latar belakang */
+    border: 3px solid #000; /* Warna border */
+    padding: 10px; /* Tambahkan padding */
+    width: 55%; /* Sesuaikan lebar */
+    max-width: 350px; /* Batasi lebar maksimum */
+    height: 77%;
+    max-height: 300px;
+    font-size: 40px;
+}
+
+.vs{
+    position: relative;
+    top: 80px;
+}
+
+#pilihan-player {
+    content: "";
+    top: 5px;
+    bottom: 5px;
+}
+
+.player1 {
+    margin: 0;
+}
+
+.computer {
+    margin: 0;
+}
+
+.result-computer, .result-player{
+margin: 0
+;
+}
+
+.games {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+}
+
+.option{
+width: 30%;
+margin: 10px 15px;
+text-align: center;
+padding: 20px;
+font-size: 40px;
+background-color: aqua;
+}
+
+.option:hover {
+cursor: pointer;
+background-color: rgb(0, 0, 135);
+transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+transform: scale(105%);
+-webkit-transform: scale(105%);
+-moz-transform: scale(105%);
+-ms-transform: scale(105%);
+-o-transform: scale(105%);
+-webkit-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+-moz-transition: cubic-bezier(0.215, 0.610, 0.355, 1)ease-in-out;
+-ms-transition: cubic-bezier(0.215, 0.610, 0.355, 1)ease-in-out;
+-o-transition: cubic-bezier(0.215, 0.610, 0.355, 1)ease-in-out;
+}
