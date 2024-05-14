@@ -49,8 +49,6 @@ class Start {
             return this.winner = "SERI"
         }
     }
-
-
 }
 
 function pickOption(option) {
@@ -86,6 +84,5 @@ function pickOption(option) {
             document.getElementById("result-player").innerText = "DRAW";
         }
         return 
-    }, 1000)
-    
+    }, 1000)   
 }
